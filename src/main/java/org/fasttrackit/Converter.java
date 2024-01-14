@@ -1,5 +1,10 @@
 package org.fasttrackit;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Converter {
     // F to C
     public static double convertToC(double tempInF){
