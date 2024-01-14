@@ -2,7 +2,7 @@ package org.fasttrackit;
 
 public class Main {
     public static void main(String[] args) {
-        double valueFahrenheit = 50;
+        double valueFahrenheit = -40;
         double resultCelsius = Converter.convertToC(valueFahrenheit);
         System.out.println("Fahrenheit to Celsius: " + resultCelsius);
 
